@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+  <div id="nav">
+    <div class="logo">
+      <img src="logo.png">
+    </div>
+    <div id="nav-part2">
+      <div class="links">
+        <a href="#page2">Shop</a>
+        <a href="https://www.zomato.com/kolkata/opportunity-cafe-co-works-dum-dum" target="_blank">Order</a>
+        <a class="order" href="#page4">Donate</a>
+      </div>
+      <div class="icons">
+        <i class="ri-phone-fill" onclick="handlePhoneClick()"></i>
+        <i class="ri-map-pin-fill" onclick="handleMapClick()"></i>
+      </div>
+    
+    </div>  
+  </div>
+  <div id="cursor"></div>
+  <div id="main">
+    <div id="page1">
+      <h1>CHANGE </h1>
+        <h1>THE COURSE</h1>
+      <div id="video-container">
+        <div id="play">Play</div>
+      <video id="myVideo" src="opp.mp4" autoplay loop muted></video>
+    </div>
+  </div>
+  <header class="buy">
+    <span>BUY GOOD</span>
+    <span>DO GOOD</span>
+    <div class="line"></div>
+   </header>
+   
+  <div id="page2">
+    <div id="elem1" class="elem">
+      <img data-scroll data-scroll-speed="1" src="/pizza.jpg">
+      <div class="dets" data-scroll data-scroll-speed="-1"  style="background-color: white; color:black">
+        You had me at pizza.
+      </div>
+      <div class="popup-menu">
+        <img src="pizzaMenue.webp" alt="Popup Menu Image"> 
+      </div>
+    </div>
+    <div id="elem2" class="elem">
+      <img data-scroll data-scroll-speed="1" src="/cake.jpg">
+      <div class="dets" data-scroll data-scroll-speed="-1" style="background-color: #f5dfc5; color:black">
+        Life is short. Eat dessert first.
+      </div>
+      <div class="popup-menu">
+        <img src="cakes.webp" alt="Popup Menu Image"> 
+       
+      </div>
+    </div>
+    <div id="elem3" class="elem">
+      <img data-scroll data-scroll-speed="1" src="/coffee.webp">
+      <div class="dets" data-scroll data-scroll-speed="-1" style="background-color: #edf3ff;color:black">
+        A milkshake a day keeps the sadness away.
+    </div>
+    <div class="popup-menu">
+      <img src="milk.webp" alt="Popup Menu Image"> 
+    </div>
+  </div>
+  </div>
+
+  <div id="page3">
+    <h2>
+      <p id="believe">We believe in people, until they believe in themselves again.</p>
+    </h2>
+
+    <div id="text">
+      <p>
+        Everything we do is designed to rebuild self worth and independence, in order to break free from the cycle of disadvantage. 
+      </p>
+      <p>
+        With every purchase you make with us, you're helping to change the course of someone's life; you're walking alongside vulnerable women as they find their way home again.
+      </p>
+      <span>
+        <a id="shop" href="#page2">SHOP TO SUPPORT</a>
+        <div class="line2"></div>
+      </span>
+    </div>
+  </div>
+  <div id="page4">
+    <div class="text">
+      <h3> OUR IMPACT. </h3>
+      <br/>
+      <p>The thing is, we don't save anyone.</p>
+      <p>What we do is provide a safe space for the special one's to change the course of their own lives.</p>
+      <p>After many years of living in crisis, abuse and complex trauma, restoring self-worth is foundational for independence. We believe that through experiences that promote love and respect, we can spark and nurture a sense of self-worth for those on the path of healing.</p>
+      <span id="real">
+        <a href="https://rrf.rescueandrelief.org/what-we-do" target="_blank">HERE'S HOW WE DO IT</a>
+        <div id="line3"></div>
+      </span>
+    </div>
+    <div class="image">
+      <img src="OurImp1.jpg">
+      <img src="OurImp2.jpg">
+    </div>
+    
+  </div>
+  
+  <div id="page5">
+    <h1>BREWING INCLUSITIVITY ONE CUP AT A TIME</h1>
+    <div id="content">
+    <div class="text">
+      <p>Every contribution helps us to expand our reach and deepen our impact. From feeding the hungry to educating the next generation, your support enables us to tackle pressing issues and build a better world. Every dollar brings us one step closer to a brighter future for those in need</p>
+      <span id="real2">
+        <a href="https://rrf.rescueandrelief.org/donate" target="_blank">DONATE NOW</a>
+      </span>
+    </div>
+    <div class="slider">
+      <div class="slider-wrapper">
+        <div class="slide" style="background-image: url('slider1.webp');"></div>
+        <div class="slide" style="background-image: url('slider2.webp');"></div>
+        <div class="slide" style="background-image: url('slider3.webp');"></div>
+        <div class="slide" style="background-image: url('slider4.webp');"></div>
+        <div class="slide" style="background-image: url('slider6.webp');"></div>
+        <div class="slide" style="background-image: url('slider5.webp');"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <div class="footer1">
+        <h1>Make a difference.<br/>
+        Donate today.</h1>
+      </div>
+      <div class="footer2">
+      <div class="social-media">
+        <div class="connect">CONNECT WITH US</div>
+        <div class="icons">
+          <a href="https://www.instagram.com/cafe_opportunity/" target="_blank"><i class="ri-instagram-fill"></i></a> 
+          <a href=" https://www.facebook.com/profile.php?id=61553259926759" target="_blank"><i class="ri-facebook-circle-fill"></i></a> 
+          <a href="https://www.youtube.com/@cafe_opportunity" target="_blank"><i class="ri-youtube-fill"></i></a> 
+          <a href="https://x.com/rescue2003in" target="_blank"><i class="ri-twitter-fill"></i></a> 
+        </div>
+      </div>
+      <div class="commit">
+        <img src="icon2.webp">
+        <p>&copy; 2024 Opportunity Cafe. All rights reserved.</p>
+      </div>
+      <div class="contact">
+        <h3>Contact Us</h3>
+      <p>Opportunity Cafe<br>158 Dum Dum Rd, Ghosh Para,<br>Dum Dum, Kolkata, West Bengal 700074</p>
+      <p>Phone: <a href="tel:+918336858723">+91 8336858723</a></p>
+      <p>Email: <a href="mailto:info@opportunitycafe.org?subject=Inquiry&body=Hello, I would like more information about...">info@opportunitycafe.org</a>
+      </p>
+      <p>Opening Hours: Mon-Fri, 9 AM - 6 PM</p>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
