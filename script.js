@@ -51,12 +51,12 @@ function loadingAnimation() {
       stagger: 0.2
     });
 
-    // gsap.from('#page1 #video-container', {
-    //   scale: 0.7,
-    //   opacity: 0,
-    //   delay: 1.5,
-    //   duration: 1
-    // });
+    gsap.from('#page1 #video-container', {
+      scale: 0.7,
+      opacity: 0,
+      delay: 1.5,
+      duration: 1
+    });
 }
 loadingAnimation();
 
