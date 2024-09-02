@@ -105,8 +105,32 @@ function scrollto(){
   });
 }
 scrollto();  
-  
- 
+
+function order(){
+  const orderButton = document.querySelector('#nav-part2 .links .order');
+  orderButton.addEventListener('click',(event)=>{
+    event.preventDefault();
+    document.body.classList.add('fade-out');
+    setTimeout(() => {
+      window.location.href = orderButton.href; 
+    }, 500);
+  });
+}
+order();
+
+function howWeDo(){
+  const howButton = document.querySelector('#page4 .text #real a');
+    howButton.addEventListener('click', (event) => {
+    event.preventDefault();
+    document.body.classList.add('fade-out'); 
+    setTimeout(() => {
+      window.location.href = howButton.href; 
+    }, 500); 
+  }); 
+}
+howWeDo();
+
+
 function donate(){
     const donateButton = document.querySelector('#page5 #real2 a');
     donateButton.addEventListener('click', (event) => {
