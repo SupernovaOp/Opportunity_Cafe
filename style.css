@@ -746,7 +746,7 @@ body.fade-out {
   }
 
   .popup-menu img {
-    max-width: 70%;
+    max-width: 90%;
     max-height: 60%;
     object-fit: cover;
   }
